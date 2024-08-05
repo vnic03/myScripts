@@ -16,7 +16,7 @@ This script shuffles and sets random backgrounds from specified directories for 
 ### `stop.sh`
 
 Stops the background.sh script and sets specfieed wallpapapers permant.
-Creates STOP file that needs to be removed lik this:
+Creates STOP file that needs to be removed like this:
 
 ```bash
 rm /tmp/stop-r-b
@@ -44,7 +44,7 @@ BACKGROUND="your/image/path/here/single"
 
 ### Interval
 
-The interval at which the backgrounds are changed can be adjusted. The default interval is 45 seconds. To change it, modify the sleep duration in random-background.sh:
+The interval at which the backgrounds are changed can be adjusted. The default interval is 45 seconds. To change it, modify the sleep duration in background.sh:
 
 ```bash
 sleep 45
